@@ -1,4 +1,4 @@
-# 🗜️ webdeck-plugin-template
+# 🔌 webdeck-plugin-template
 
 This is a starting repo to create plugins for the webdeck web app. Everything is setup in this template to get started. Fork this or clone it and begin.
 
