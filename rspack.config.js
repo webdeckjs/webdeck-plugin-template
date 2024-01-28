@@ -45,6 +45,10 @@ module.exports = {
   plugins: [
     new ModuleFederationPlugin({
       name: package.name,
+      library: {
+        type: 'global',
+        name: package.name.replaceAll("-", "_")
+      },
       filename: 'remoteEntry.js',
       exposes: {
         './Plugin': './src/App',
