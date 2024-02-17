@@ -48,7 +48,8 @@ module.exports = __webpack_require__(/*! ./cjs/react-jsx-runtime.production.min.
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
-  "default": function() { return __WEBPACK_DEFAULT_EXPORT__; }
+  "default": function() { return __WEBPACK_DEFAULT_EXPORT__; },
+  onPress: function() { return onPress; }
 });
 /* harmony import */var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */"893");
 /* harmony import */var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
@@ -56,8 +57,12 @@ __webpack_require__.d(__webpack_exports__, {
 /* harmony import */var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 
 
-var App = function(param) {
-    var title = param.title;
+ var onPress = function() {
+    for(var _len = arguments.length, argss = new Array(_len), _key = 0; _key < _len; _key++)argss[_key] = arguments[_key];
+    console.log("on press pressed", args);
+};
+var App = function(props) {
+    console.log("App props", props);
     return /*#__PURE__*/ (0, react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
         style: {
             borderRadius: "4px",
@@ -65,8 +70,9 @@ var App = function(param) {
             backgroundColor: "red",
             color: "white"
         },
-        "data-e2e": "APP_2__WIDGET",
-        children: title
+        children: /*#__PURE__*/ (0, react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+            children: "hello from webdeck-plugin-template"
+        })
     });
 };
 var __WEBPACK_DEFAULT_EXPORT__ = App;
