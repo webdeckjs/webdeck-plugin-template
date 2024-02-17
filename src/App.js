@@ -1,11 +1,11 @@
 import React from 'react';
 
-export const onPress = (...argss) => {
-  console.log("on press pressed", args);
+export const onPress = (params) => {
+  console.log("on press pressed", {params});
 }
 
 const App = (props) => {
-  console.log("App props", props);
+  console.log("App render", {props});
   return (
     <div
       style={{
