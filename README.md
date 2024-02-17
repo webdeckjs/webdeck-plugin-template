@@ -2,7 +2,13 @@
 
 This is a starting repo to create plugins for the webdeck web app. Everything is setup in this template to get started. Fork this or clone it and begin.
 
-## Getting started.
+## Usage
+
+To use try out this plugin, paste the url to this repo into you plugins and you ready to go!
+
+## Contributing
+
+### Install dependencies
 
 To get started, install the dependenceis
 

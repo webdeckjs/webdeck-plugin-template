@@ -1,17 +1,23 @@
 import React from 'react';
 
-const App = ({ title }) => (
-  <div
-    style={{
-      borderRadius: '4px',
-      padding: '2em',
-      backgroundColor: 'red',
-      color: 'white',
-    }}
-    data-e2e="APP_2__WIDGET"
-  >
-    {title}
-  </div>
-);
+export const onPress = (...argss) => {
+  console.log("on press pressed", args);
+}
+
+const App = (props) => {
+  console.log("App props", props);
+  return (
+    <div
+      style={{
+        borderRadius: '4px',
+        padding: '2em',
+        backgroundColor: 'red',
+        color: 'white',
+      }}
+    >
+      <div>hello from webdeck-plugin-template</div>
+    </div>
+  )
+};
 
 export default App;
