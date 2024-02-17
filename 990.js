@@ -57,12 +57,15 @@ __webpack_require__.d(__webpack_exports__, {
 /* harmony import */var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 
 
- var onPress = function() {
-    for(var _len = arguments.length, argss = new Array(_len), _key = 0; _key < _len; _key++)argss[_key] = arguments[_key];
-    console.log("on press pressed", args);
+ var onPress = function(params) {
+    console.log("on press pressed", {
+        params: params
+    });
 };
 var App = function(props) {
-    console.log("App props", props);
+    console.log("App render", {
+        props: props
+    });
     return /*#__PURE__*/ (0, react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
         style: {
             borderRadius: "4px",
