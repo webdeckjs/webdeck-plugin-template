@@ -53,6 +53,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 
  var onPress = function(params) {
+    alert("on Press from plugin!");
     console.log("on press pressed", {
         params: params
     });
