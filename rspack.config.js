@@ -1,6 +1,9 @@
 const { HtmlRspackPlugin, container: {ModuleFederationPlugin} } = require('@rspack/core');
 const path = require('path');
 const package = require('./package.json');
+const isDevelopment = process.env.NODE_ENV === "development";
+const name = `${isDevelopment? "local_" : ""}${package.name}`;
+const port = 3002;
 
 module.exports = {
   entry: './src/index',
@@ -10,7 +13,11 @@ module.exports = {
     static: {
       directory: path.join(__dirname, 'dist'),
     },
-    port: 3002,
+    port,
+    setupMiddlewares: (middlewares, devServer) => {
+      console.log(`\x1b[32m[webdeck-plugin] Plugin url:\x1b[0m \x1b[36mhttp://localhost:${port}/remoteEntry.js?name=${name}\x1b[0m \n`)
+      return middlewares;
+    },
   },
   output: {
     publicPath: 'auto',
@@ -44,10 +51,10 @@ module.exports = {
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: package.name,
+      name: name,
       library: {
         type: 'global',
-        name: package.name.replaceAll("-", "_")
+        name: name.replaceAll("-", "_")
       },
       filename: 'remoteEntry.js',
       exposes: {
