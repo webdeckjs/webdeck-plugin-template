@@ -1,6 +1,7 @@
 import React from 'react';
 
 export const onPress = (params) => {
+  alert("on Press from plugin!");
   console.log("on press pressed", {params});
 }
 
