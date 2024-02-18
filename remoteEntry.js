@@ -3412,7 +3412,7 @@ __webpack_require__.d(exports, {
 	get: () => (__webpack_require__.getContainer),
 	init: () => (__webpack_require__.initContainer)
 });}),
-"291": (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+"176": (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */var _home_runner_work_webdeck_plugin_template_webdeck_plugin_template_node_modules_rspack_core_node_modules_module_federation_webpack_bundler_runtime_dist_index_cjs_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! /home/runner/work/webdeck-plugin-template/webdeck-plugin-template/node_modules/@rspack/core/node_modules/@module-federation/webpack-bundler-runtime/dist/index.cjs.js */"426");
@@ -3420,7 +3420,7 @@ __webpack_require__.r(__webpack_exports__);
 
 const __module_federation_runtime_plugins__ = [];
 const __module_federation_remote_infos__ = {};
-const __module_federation_container_name__ = "webdeck-plugin-template";
+const __module_federation_container_name__ = "webdeck_plugin_template";
 var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m;
 if (__webpack_require__.initializeSharingData || __webpack_require__.initializeExposesData) {
     const override = (obj, key, value)=>{
@@ -3606,7 +3606,7 @@ __webpack_require__.e = function (chunkId) {
 }();
 // webpack/runtime/load_chunk_with_block
 !function() {
-var map = {"280@": ["987", "697"], "358@./Plugin": ["697", "990"], "485@": ["987"], "537@0:21": ["697"], "837@": ["512"], "972@": ["512"]};
+var map = {"358@./Plugin": ["611", "990"], "537@0:21": ["611"], "693@": ["512"], "725@": ["512"], "862@": ["987", "611"], "866@": ["987"]};
 
 __webpack_require__.el = function(module) {
   var chunkIds = map[module];
@@ -3663,7 +3663,7 @@ __webpack_require__.n = function (module) {
 !function() {
 
 __webpack_require__.S = {};
-__webpack_require__.initializeSharingData = { scopeToSharingDataMapping: { "default": [{ name: "react-dom", version: "16.14.0", factory: function() { return __webpack_require__.el("280@").then(function() { return function() { return __webpack_require__(/*! /home/runner/work/webdeck-plugin-template/webdeck-plugin-template/node_modules/react-dom/index.js */"935"); }; }); }, eager: 0 }, { name: "react", version: "16.14.0", factory: function() { return __webpack_require__.el("837@").then(function() { return function() { return __webpack_require__(/*! /home/runner/work/webdeck-plugin-template/webdeck-plugin-template/node_modules/react/index.js */"294"); }; }); }, eager: 0 }] }, uniqueName: "webdeck-plugin-template" };
+__webpack_require__.initializeSharingData = { scopeToSharingDataMapping: { "default": [{ name: "react-dom", version: "18.2.0", factory: function() { return __webpack_require__.el("862@").then(function() { return function() { return __webpack_require__(/*! /home/runner/work/webdeck-plugin-template/webdeck-plugin-template/node_modules/react-dom/index.js */"935"); }; }); }, eager: 0 }, { name: "react", version: "18.2.0", factory: function() { return __webpack_require__.el("693@").then(function() { return function() { return __webpack_require__(/*! /home/runner/work/webdeck-plugin-template/webdeck-plugin-template/node_modules/react/index.js */"294"); }; }); }, eager: 0 }] }, uniqueName: "webdeck-plugin-template" };
 __webpack_require__.I = function() { throw new Error("should have __webpack_require__.I") }
 
 }();
@@ -3766,7 +3766,7 @@ __webpack_require__.g = (function () {
 // webpack/runtime/consumes_loading
 !function() {
 
-__webpack_require__.consumesLoadingData = { chunkMapping: {"987":[],"990":[],"512":[],"697":["972"]}, moduleIdToConsumeDataMapping: { "972": { shareScope: "default", shareKey: "react", import: "react", requiredVersion: "^16.13.0", strictVersion: false, singleton: true, eager: false, fallback: function() { return __webpack_require__.el("972@").then(function() { return function() { return __webpack_require__(/*! react */"294"); }; }); } } }, initialConsumes: [] };
+__webpack_require__.consumesLoadingData = { chunkMapping: {"987":[],"990":[],"512":[],"611":["725"]}, moduleIdToConsumeDataMapping: { "725": { shareScope: "default", shareKey: "react", import: "react", requiredVersion: "^18.2.0", strictVersion: false, singleton: true, eager: false, fallback: function() { return __webpack_require__.el("725@").then(function() { return function() { return __webpack_require__(/*! react */"294"); }; }); } } }, initialConsumes: [] };
 __webpack_require__.f.consumes = function() { throw new Error("should have __webpack_require__.f.consumes") }
 }();
 // webpack/runtime/jsonp_chunk_loading
@@ -3775,7 +3775,7 @@ __webpack_require__.f.consumes = function() { throw new Error("should have __web
       // object to store loaded and loading chunks
       // undefined = chunk not loaded, null = chunk preloaded/prefetched
       // [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
-      var installedChunks = {"527": 0,};
+      var installedChunks = {"189": 0,};
       
         __webpack_require__.f.j = function (chunkId, promises) {
           // JSONP chunk loading for javascript
@@ -3789,7 +3789,7 @@ if (installedChunkData !== 0) {
 	if (installedChunkData) {
 		promises.push(installedChunkData[2]);
 	} else {
-		if ("697" != chunkId) {
+		if ("611" != chunkId) {
 			// setup Promise in chunk cache
 			var promise = new Promise(function (resolve, reject) {
 				installedChunkData = installedChunks[chunkId] = [resolve, reject];
@@ -3907,7 +3907,7 @@ __webpack_require__.getContainer = function() { throw new Error("should have __w
     __webpack_require__.p = scriptUrl
     
 }();
-__webpack_require__("291");
+__webpack_require__("176");
 var __webpack_exports__ = __webpack_require__("358");self.webdeck_plugin_template = __webpack_exports__;
 
 })()
