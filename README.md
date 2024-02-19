@@ -4,7 +4,7 @@ This is a starting repo to create plugins for the webdeck web app. Everything is
 
 ## Usage
 
-To use try out this plugin, paste the url to this repo into you plugins and you ready to go!
+To use try out this plugin, paste the url to this repo into you plugins and you ready to go! This plugin template is for the for [webdeck](https://github.com/webdeckjs/webdeck).
 
 ## Contributing
 
