@@ -8,6 +8,8 @@ To use try out this plugin, paste the url to this repo into you plugins and you 
 
 ## Contributing
 
+If you like to contribute to this plugin by adding new features or impoving existing ones, follow the steps bellow:
+
 ### Install dependencies
 
 To get started, install the dependenceis
