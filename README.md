@@ -2,6 +2,9 @@
 
 This is a starting repo to create plugins for the webdeck web app. Everything is set up in this template to get started. Press the `Use this Template` to create a new plugin.
 
+- ⭐ [How to create a Plugin](https://github.com/webdeckjs/webdeck/wiki/How-to-create-a-new-Plugin)
+- 📖 [Plugin API docs](https://github.com/webdeckjs/webdeck/wiki/Plugin-API)
+
 ## Usage
 
 To try out this plugin, paste the url to this repo into you plugins and you are ready to go! This plugin template is for the [webdeck](https://github.com/webdeckjs/webdeck).
