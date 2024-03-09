@@ -3406,7 +3406,7 @@ var federation = {
 module.exports = federation;
 }),
 "537": (function (__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
-__webpack_require__.el("537@0:21").then(__webpack_require__.bind(__webpack_require__, /*! ./bootstrap */"447"));
+__webpack_require__.el("537@0:24").then(__webpack_require__.bind(__webpack_require__, /*! ./bootstrap.js */"447"));
 }),
 "176": (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 "use strict";
@@ -3602,7 +3602,7 @@ __webpack_require__.e = function (chunkId) {
 }();
 // webpack/runtime/load_chunk_with_block
 !function() {
-var map = {"358@./Plugin": ["611"], "537@0:21": ["611", "425"], "693@": ["512"], "725@": ["512"], "862@": ["987", "611"], "866@": ["987"]};
+var map = {"358@./Plugin": ["611"], "537@0:24": ["611", "425"], "693@": ["512"], "725@": ["512"], "862@": ["987", "611"], "866@": ["987"]};
 
 __webpack_require__.el = function(module) {
   var chunkIds = map[module];
